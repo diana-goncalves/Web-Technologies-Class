@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex. 03</title>
+</head>
+<body>
+    <h3>Formulário</h3>
+    <form>
+        <label for="nomeInput">Nome</label>
+        <input type="text" placeholder="Nome" id="nomeInput" required/>
+
+        <br>
+
+        <label for="emailInput">Email</label>
+        <input type="email" placeholder="Email" id="emailInput" required/>
+
+        <br>
+
+        <label for="idadeInput">Idade</label>
+        <input type="number" placeholder="Idade" id="idadeInput" required/>
+
+        <br>
+
+        <label for="DataNascimentoInput">Data de Nascimento</label>
+        <input type="text" placeholder="mm / dd / yyyy" id="DataNascimentoInput" required/>
+
+        <br>
+
+        <label for="nacionalidadeSelect">Nacionalidade</label>
+        <select id="nacionalidadeSelect" required>
+            <option value="portugal">Portugal</option>
+            <option value="franca">França</option>
+            <option value="inglaterra">Inglaterra</option>
+            <option value="suica">Suíça</option>
+            <option value="irlanda">Irlanda</option>
+        </select>
+
+        <br>
+
+        <label for="passwordInput">Password</label>
+        <input 
+            type="password" 
+            placeholder="Password"
+            id="passwordInput" required
+        />
+
+        <br>
+
+        <input type="submit" value="Sign In" />
+    </form>
+    
+</body>
+</html>
