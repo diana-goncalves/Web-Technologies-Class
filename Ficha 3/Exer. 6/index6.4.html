@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rounded-button {
+            border-radius: 10px; /* Define a curvatura das bordas */
+        }
+    </style>
+</head>
+<body>
+    <h3>View or Manage Your Order</h3>
+    <p>To check the status of your order, or to start a <br>
+        return, please enter your order number and <br>
+        email address.</p>
+    <div>
+        <textarea name="orderNumber" id="orderNumber" placeholder="Order Number*" class="input-large" rows="2" cols="30"></textarea>
+    </div>
+    <br>
+    <div>
+        <textarea name="email" id="email" data-testid="label-element" placeholder="Email address*" class="input-large" rows="2" cols="30"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit" class="rounded-button">
+    </div>
+</body>
+</html>
