@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.example {
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    width: 800px;
+}
+
+/* (i) Transforme o elemento com posição relativa, 30px do topo e da esquerda do elemento pai. */
+.item-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  
+  /* (ii) Transforme o elemento com posição absoluta, 10px em relação ao topo e à esquerda da página. */
+  .item-absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  /* (iii) O elemento com a classe "item-absolute" fica com posição absoluta relativamente ao elemento com a classe "absolute". */
+  .absolute {
+    position: relative;
+  }
+  
+  /* (iv) O elemento com a classe "item-fixed" fica posicionado de forma fixa no canto inferior direito da página. */
+  .item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
