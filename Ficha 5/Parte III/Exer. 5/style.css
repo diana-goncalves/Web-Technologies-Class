@@ -1,10 +1,10 @@
 body {
     background-color: #1a1a1a;
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 18px;
     font-weight: lighter;
- /* line-height: 150%; ---- ERRO ---- */
+    line-height: 150%;
 }
 
 /* Estilos para o texto "Welcome to YourBank Empowering Your" dentro de .bank-title */
@@ -14,10 +14,11 @@ body {
     font-size: 48px; /* Tamanho da letra */
     max-width: 830px; /* Largura máxima */
     margin-bottom: 10px; /* Margem inferior */
+    line-height: 150%;
 }
   
-  /* Estilos para a classe "bank-title-highligh" que envolve "Financial Journey" */
-  .bank-title-highligh {
+  /* Estilos para a classe "bank-title-highlight" que envolve "Financial Journey" */
+.bank-title-highlight {
     color: #CAFF33; /* Cor do texto - verde */
 }
   
@@ -38,8 +39,8 @@ body {
     cursor: pointer; /* Altera o cursor para um ponteiro ao passar o mouse */
 }
   
-  /* Estilize o botão quando o mouse passar por cima */
-  .bank-button:hover {
+/* Estilize o botão quando o mouse passar por cima */
+.bank-button:hover {
     background-color: #A0D820; /* Altera a cor de fundo quando o mouse passa por cima */
 }
   
