@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    grid-gap: 30px 60px;
+}
+
+.hero-cards {
+    width: 295px;
+    border-radius: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.hero-cards p {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-cards span {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.hero-cards:hover span {
+    color: #3563E9;
+}
