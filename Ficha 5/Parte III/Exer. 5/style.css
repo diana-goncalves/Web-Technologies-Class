@@ -26,7 +26,7 @@ body {
 .bank-paragraph {
     max-width: 830px; /* Largura máxima */
     color: #E4E4E7; /* Cor do texto */
-    margin-bottom: 40px; /* Margem inferior */
+    margin-bottom: 0 0 40px; /* Margem inferior */
 }
   
 /* Estilos para o botão com a classe "bank-button" */
